@@ -1,0 +1,34 @@
+.header {
+    display: grid;
+    grid-template-columns: 279px 1fr max-content;
+    margin-top: 32px;
+}
+
+.header__user,
+.header__heading,
+.header__link {
+    display: flex;
+    align-items: center;
+}
+
+.header__heading {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: #363636;
+}
+
+.header__user-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #363636;
+    margin-right: 16px;
+}

@@ -1,0 +1,113 @@
+.main-page__content-tiles-card {
+    width: 190px;
+    height: 470px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+    border-radius: 10px;
+    padding: 8px 8px 16px 8px;
+}
+
+.main-page__content-tiles-card-rating-wrapper {
+    height: 40px;
+}
+
+.main-page__content-tiles-card-rating {
+    margin-top: 16px;
+}
+
+.main-page__content-tiles-card-rating-none {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+    margin-top: 16px;
+}
+
+.main-page__content-tiles-card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+
+.main-page__content-tiles-card-author-wrapper {
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.main-page__content-tiles-card-author {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #727272;
+    padding-right: 9px;
+}
+
+.main-page__content-tiles-card-btn {
+    margin-top: 19px;
+    width: 166px;
+    height: 40px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    border-radius: 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-page__content-tiles-card-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main-page__content-tiles-card-btn-unavailable {
+    margin-top: 19px;
+    width: 166px;
+    height: 40px;
+    background: #F9F9FA;
+    border: 1px solid #BFC4C9;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #A7A7A7;
+}
+
+.main-page__content-tiles-card-btn-booked {
+    margin-top: 19px;
+    width: 166px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BFC4C9;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #363636;
+}

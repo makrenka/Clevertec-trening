@@ -18,7 +18,7 @@
     font-size: 32px;
     line-height: 40px;
     letter-spacing: 0.1px;
-    color: #363636;
+    color: var(--text);
 }
 
 .header__user-text {
@@ -29,6 +29,6 @@
     line-height: 18px;
     text-align: right;
     letter-spacing: 0.1px;
-    color: #363636;
+    color: var(--text);
     margin-right: 16px;
 }

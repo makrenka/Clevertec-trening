@@ -1,5 +1,6 @@
 @import './css/fonts.css';
 @import './css/common.css';
+@import './css/globals.css';
 
 body {
   height: 100%;

@@ -9,8 +9,9 @@ export class MainPageContent extends Component {
 
     render(): ReactNode {
         return (
-            <div className="main-page__content">
+            <div className="main-page__content" data-test-id='main-page-content-tiles'>
                 <TilesCard
+                    id="/book-page/1"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author=""
@@ -24,6 +25,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/2"
                     title="Иллюстрированное"
                     poster={cardImage}
                     author=""
@@ -37,6 +39,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/3"
                     title=""
                     poster={cardImage}
                     author=""
@@ -50,6 +53,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/4"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author=""
@@ -63,6 +67,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/5"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author="Патрик Нимейер,"
@@ -76,6 +81,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/6"
                     title="Иллюстрированное"
                     poster={cardImageNone}
                     author="Патрик Нимейер,"
@@ -89,6 +95,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/7"
                     title=""
                     poster={cardImage}
                     author="Патрик Нимейер,"
@@ -102,6 +109,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/8"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author="Патрик Нимейер,"
@@ -115,6 +123,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/9"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author=""
@@ -128,6 +137,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
+                    id="/book-page/10"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImageNone}
                     author=""

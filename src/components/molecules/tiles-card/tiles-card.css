@@ -52,12 +52,11 @@
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.1px;
-    color: #727272;
+    color: var(--grey-text);
     padding-right: 9px;
 }
 
 .main-page__content-tiles-card-btn {
-    margin-top: 19px;
     width: 166px;
     height: 40px;
     background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
@@ -70,16 +69,17 @@
     line-height: 18px;
     letter-spacing: 0.2px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--text-on-buttons);
+    cursor: pointer;
 }
 
 .main-page__content-tiles-card-btn-wrapper {
     display: flex;
     justify-content: center;
+    margin-top: 19px;
 }
 
 .main-page__content-tiles-card-btn-unavailable {
-    margin-top: 19px;
     width: 166px;
     height: 40px;
     background: #F9F9FA;
@@ -93,10 +93,10 @@
     letter-spacing: 0.2px;
     text-transform: uppercase;
     color: #A7A7A7;
+    cursor: pointer;
 }
 
 .main-page__content-tiles-card-btn-booked {
-    margin-top: 19px;
     width: 166px;
     height: 40px;
     background: #FFFFFF;
@@ -110,4 +110,5 @@
     letter-spacing: 0.2px;
     text-transform: uppercase;
     color: #363636;
+    cursor: pointer;
 }

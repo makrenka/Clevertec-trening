@@ -13,21 +13,7 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path='/' element={<MainPage />} />
-        <Route path='/business-books' element={<MainPage />} />
-        <Route path='/detectives' element={<MainPage />} />
-        <Route path='/children-books' element={<MainPage />} />
-        <Route path='/foreign-literature' element={<MainPage />} />
-        <Route path='/history' element={<MainPage />} />
-        <Route path='/classic-literature' element={<MainPage />} />
-        <Route path='/psychology-books' element={<MainPage />} />
-        <Route path='/computer-literature' element={<MainPage />} />
-        <Route path='/culture-and-art' element={<MainPage />} />
-        <Route path='/science-and-education' element={<MainPage />} />
-        <Route path='/nonfiction-literature' element={<MainPage />} />
-        <Route path='/reference-books' element={<MainPage />} />
-        <Route path='/fantasy' element={<MainPage />} />
-        <Route path='/humorous-literature' element={<MainPage />} />
-        <Route path='/book-page' element={<BookPage />} />
+        <Route path='/book-page/:id' element={<BookPage />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>

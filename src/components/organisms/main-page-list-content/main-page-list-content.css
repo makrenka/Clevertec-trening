@@ -1,0 +1,8 @@
+.main-page__list-content {
+    margin: 32px 0 62px 6px;
+    display: none;
+}
+
+.main-page__list-content--active {
+    display: block;
+}

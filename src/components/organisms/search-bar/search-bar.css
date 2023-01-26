@@ -43,6 +43,7 @@
     color: #A7A7A7;
     border-top-right-radius: 599px;
     border-bottom-right-radius: 599px;
+    outline: none;
 }
 
 .search-bar__select-group {
@@ -80,6 +81,19 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    outline: none;
+}
+
+.search-bar__buttons-list-wrapper {
+    display: none;
+}
+
+.search-bar__buttons-list-wrapper--active {
+    display: block;
+}
+
+.search-bar__buttons-tiles-wrapper--unactive {
+    display: none;
 }
 
 .search-bar__buttons-tiles-btn,
@@ -87,4 +101,5 @@
     background: none;
     border: none;
     margin-left: 6px;
+    filter: drop-shadow(0px 2px 4px rgba(191, 196, 201, 0.2)) drop-shadow(0px 3px 4px rgba(191, 196, 201, 0.18)) drop-shadow(0px 1px 5px rgba(191, 196, 201, 0.24));
 }

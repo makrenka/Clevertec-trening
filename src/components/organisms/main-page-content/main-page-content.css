@@ -5,3 +5,7 @@
     grid-row-gap: 24px;
     grid-column-gap: 21.5px;
 }
+
+.main-page__content--unactive {
+    display: none;
+}

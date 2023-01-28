@@ -1,7 +1,7 @@
 .header {
     display: grid;
     grid-template-columns: 279px 1fr max-content;
-    margin-top: 32px;
+    padding: 32px 0 15px 0;
 }
 
 .header__user,

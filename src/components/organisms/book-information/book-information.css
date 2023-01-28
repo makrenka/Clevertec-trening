@@ -1,0 +1,57 @@
+.book-page__information {
+    margin-top: 42px;
+}
+
+.book-page__information-rating {
+    width: 350px;
+}
+
+.book-page__information-rating-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
+.book-page__information-rating-wrapper {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.book-page__information-rating-value {
+    margin-left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+}
+
+.book-page__information-detail {
+    margin-top: 62px;
+}
+
+.book-page__information-detail-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    width: 350px;
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 16px;
+}
+
+.book-page__information-detail-table {
+    margin-top: 16px;
+}

@@ -1,20 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-
-import { MainPage } from './pages/main';
-import { BookPage } from './pages/book';
-
 import './index.css';
+import { Layout } from './components/templates/layout';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <Routes>
-        <Route path='/' element={<MainPage />} />
-        <Route path='/book-page/:id' element={<BookPage />} />
-      </Routes>
+      <Layout />
     </HashRouter>
-  </React.StrictMode>
+  </React.StrictMode >
 );

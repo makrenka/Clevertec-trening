@@ -1,9 +1,6 @@
-.main-page {
-    min-height: calc(100vh - 230px);
-    margin-top: 62px;
-}
-
 .main__wrapper {
+    min-height: calc(100vh - 230px);
+    margin-top: 47px;
     display: grid;
     grid-template-columns: 279px 1fr;
 }

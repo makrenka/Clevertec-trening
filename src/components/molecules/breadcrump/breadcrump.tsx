@@ -1,5 +1,7 @@
+import { HandySvg } from "handy-svg";
 import { Component, ReactNode } from "react";
 import { Link } from "react-router-dom";
+import chevronIcon from '../../../assets/images/icons/icon-chevron.svg';
 import './breadcrump.css';
 
 export class Breadcrump extends Component {
@@ -14,7 +16,12 @@ export class Breadcrump extends Component {
                                 <Link to="/" className="book-page__breadcrump-link">
                                     Бизнес книги
                                 </Link>
-                                <p className="book-page__breadcrump-text-sep">/</p>
+                                <HandySvg
+                                    src={chevronIcon}
+                                    className="book-page__breadcrump-item-chevron-icon"
+                                    width="24"
+                                    height="24"
+                                />
                             </li>
                             <li className="book-page__breadcrump-item">
                                 <p className="book-page__breadcrump-text">

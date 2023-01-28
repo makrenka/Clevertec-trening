@@ -1,7 +1,4 @@
 import { Component, ReactNode } from 'react';
-import { Header } from '../../components/organisms/header';
-import { Footer } from '../../components/organisms/footer';
-import { SideBar } from '../../components/organisms/side-bar';
 import { SearchBar } from '../../components/organisms/search-bar';
 import { MainPageContent } from '../../components/organisms/main-page-content';
 import { MainPageListContent } from '../../components/organisms/main-page-list-content';
@@ -46,22 +43,11 @@ export class MainPage extends Component {
 
     render(): ReactNode {
         return (
-            <>
-                <Header />
-                <section className='main-page'>
-                    <div className='container'>
-                        <div className='main__wrapper'>
-                            <SideBar />
-                            <div className='main__content-wrapper'>
-                                <SearchBar />
-                                <MainPageContent />
-                                <MainPageListContent />
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <Footer />
-            </>
+            <main className='main__content-wrapper'>
+                <SearchBar />
+                <MainPageContent />
+                <MainPageListContent />
+            </main>
         )
     }
 }

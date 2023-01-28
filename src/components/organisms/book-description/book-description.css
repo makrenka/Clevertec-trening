@@ -1,0 +1,75 @@
+.book-page__description {
+    display: flex;
+    margin-top: 42px;
+}
+
+.book-page__description-wrapper {
+    margin-left: 30px;
+}
+
+.book-page__description-img {
+    width: 445px;
+    height: 593px;
+}
+
+.book-page__description-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    padding-right: 36px;
+}
+
+.book-page__description-author {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+    margin-top: 24px;
+}
+
+.book-page__description-btn {
+    width: 350px;
+    height: 52px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 32px;
+}
+
+.book-page__description-title-about {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    margin-top: 62px;
+}
+
+.book-page__description-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    margin-top: 32px;
+    padding-right: 55px;
+}

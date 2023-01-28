@@ -1,0 +1,26 @@
+.book-page__breadcrump-wrapper {
+    margin-top: 27px;
+    background: #F9F9FA;
+    padding: 20px 0;
+}
+
+.book-page__breadcrump-item {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+    display: flex;
+    align-items: center;
+}
+
+.book-page__breadcrump-list {
+    display: flex;
+    align-items: center;
+}
+
+.book-page__breadcrump-item-chevron-icon {
+    margin: 0 4px;
+}

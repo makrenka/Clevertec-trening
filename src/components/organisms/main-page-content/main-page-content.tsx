@@ -11,7 +11,7 @@ export class MainPageContent extends Component {
         return (
             <div className="main-page__content" data-test-id='main-page-content-tiles'>
                 <TilesCard
-                    id="/book-page/1"
+                    id="/books/:category/1"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author=""
@@ -25,7 +25,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/2"
+                    id="/books/:category/2"
                     title="Иллюстрированное"
                     poster={cardImage}
                     author=""
@@ -39,7 +39,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/3"
+                    id="/books/:category/3"
                     title=""
                     poster={cardImage}
                     author=""
@@ -53,7 +53,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/4"
+                    id="/books/:category/4"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author=""
@@ -67,7 +67,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/5"
+                    id="/books/:category/5"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author="Патрик Нимейер,"
@@ -81,7 +81,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/6"
+                    id="/books/:category/6"
                     title="Иллюстрированное"
                     poster={cardImageNone}
                     author="Патрик Нимейер,"
@@ -95,7 +95,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/7"
+                    id="/books/:category/7"
                     title=""
                     poster={cardImage}
                     author="Патрик Нимейер,"
@@ -109,7 +109,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/8"
+                    id="/books/:category/8"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author="Патрик Нимейер,"
@@ -123,7 +123,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/9"
+                    id="/books/:category/9"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImage}
                     author=""
@@ -137,7 +137,7 @@ export class MainPageContent extends Component {
                     }
                 />
                 <TilesCard
-                    id="/book-page/10"
+                    id="/books/:category/10"
                     title="Иллюстрированное пособие для програ..."
                     poster={cardImageNone}
                     author=""

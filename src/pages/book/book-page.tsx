@@ -1,19 +1,18 @@
 import { Component, ReactNode } from "react";
-import { Header } from '../../components/organisms/header';
-import { Footer } from '../../components/organisms/footer';
 import { Breadcrump } from '../../components/molecules/breadcrump';
+import { BookDescription } from "../../components/organisms/book-description";
+import { BookInformation } from "../../components/organisms/book-information";
+import './book-page.css';
 
 export class BookPage extends Component {
 
     render(): ReactNode {
         return (
-            <>
-                <Header />
-                <section className='book-page'>
-                    <Breadcrump />
-                </section>
-                <Footer />
-            </>
+            <main className="book-page">
+                <Breadcrump />
+                <BookDescription />
+                <BookInformation />
+            </main>
         )
     }
 }

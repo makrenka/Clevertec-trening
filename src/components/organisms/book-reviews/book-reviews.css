@@ -1,0 +1,81 @@
+.book-page__reviews {
+    margin-top: 62px;
+}
+
+.book-page__reviews-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    padding-bottom: 16px;
+    border-bottom: 1px solid #EBEBEB;
+    width: 350px;
+}
+
+.book-page__reviews-title span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+    margin-left: 6px;
+}
+
+.book-page__reviews-btn {
+    width: 350px;
+    height: 52px;
+    background: linear-gradient(233.73deg, #F83600 -16.08%, #F9D423 327.37%);
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1130px) {
+    .book-page__reviews {
+        margin-top: 52px;
+    }
+
+    .book-page__reviews-title {
+        width: 307px;
+    }
+
+    .book-page__reviews-title span {
+        display: none;
+    }
+
+    .book-page__reviews-btn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .book-page__reviews {
+        margin-top: 42px;
+    }
+
+    .book-page__reviews-title {
+        padding-bottom: 8px;
+        width: 100%;
+    }
+
+
+    .book-page__reviews-btn {
+        height: 40px;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: -12px;
+    }
+}

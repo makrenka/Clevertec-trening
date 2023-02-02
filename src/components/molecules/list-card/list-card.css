@@ -9,7 +9,7 @@
 }
 
 .main-page__content-list-card-img {
-    width: 120px;
+    max-width: 120px;
     height: 170px;
 }
 
@@ -59,6 +59,7 @@
     text-transform: uppercase;
     color: var(--text-on-buttons);
     border: none;
+    cursor: pointer;
 }
 
 .main-page__content-list-card-btn-booked {
@@ -85,4 +86,64 @@
     line-height: 18px;
     letter-spacing: 0.1px;
     color: #A7A7A7;
+}
+
+@media screen and (max-width: 1130px) {
+    .main-page__content-list-card {
+        padding: 16px 24px 16px 16px;
+    }
+
+    .main-page__content-list-card-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .main-page__content-list-card {
+        padding: 16px 16px 16px 8px;
+    }
+
+    .main-page__content-list-card-img {
+        max-width: 70px;
+        height: 100px;
+    }
+
+    .main-page__content-list-card-wrapper {
+        padding-left: 8px;
+    }
+
+    .main-page__content-list-card-title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+    }
+
+    .main-page__content-list-card-author {
+        margin-top: 3px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .main-page__content-list-card-rating-btn-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 3px;
+    }
+
+    .main-page__content-list-card-rating {
+        width: 104px;
+        height: 16px;
+    }
+
+    .main-page__content-list-card-btn,
+    .main-page__content-list-card-btn-booked {
+        margin-top: 16px;
+        width: 186px;
+    }
 }

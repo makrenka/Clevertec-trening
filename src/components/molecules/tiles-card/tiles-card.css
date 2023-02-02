@@ -112,3 +112,75 @@
     color: #363636;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1130px) {
+    .main-page__content-tiles-card-title {
+        font-weight: 700;
+        font-size: 12px;
+        max-height: 36px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .main-page__content-tiles-card-author {
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: uppercase;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        padding-right: 21px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .main-page__content-tiles-card {
+        width: 100%;
+        padding: 8px 16px 16px 16px;
+        position: relative;
+        margin-top: 16px;
+    }
+
+    .main-page__content-tiles-card-img-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-page__content-tiles-card-rating-wrapper {
+        height: auto;
+    }
+
+    .main-page__content-tiles-card-title {
+        margin-top: 16px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        display: block;
+        max-height: max-content;
+        height: max-content;
+    }
+
+    .main-page__content-tiles-card-author-wrapper {
+        height: auto;
+    }
+
+    .main-page__content-tiles-card-author {
+        margin-top: 8px;
+        font-weight: 400;
+        text-transform: none;
+    }
+
+    .main-page__content-tiles-card-btn-wrapper {
+        position: absolute;
+        bottom: 16px;
+    }
+
+    .main-page__content-tiles-card-btn,
+    .main-page__content-tiles-card-btn-unavailable,
+    .main-page__content-tiles-card-btn-booked {
+        width: 256px;
+    }
+}

@@ -10,9 +10,9 @@ export class Breadcrump extends Component {
         return (
             <div className="book-page__breadcrump-wrapper">
                 <div className="container">
-                    <nav className="book-page__breadcrump">
-                        <ul className="book-page__breadcrump-list">
-                            <li className="book-page__breadcrump-item">
+                    <div className="book-page__breadcrump">
+                        <div className="book-page__breadcrump-list">
+                            <div className="book-page__breadcrump-item">
                                 <Link to="/" className="book-page__breadcrump-link">
                                     Бизнес книги
                                 </Link>
@@ -22,14 +22,12 @@ export class Breadcrump extends Component {
                                     width="24"
                                     height="24"
                                 />
-                            </li>
-                            <li className="book-page__breadcrump-item">
-                                <p className="book-page__breadcrump-text">
-                                    Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих
-                                </p>
-                            </li>
-                        </ul>
-                    </nav>
+                            </div>
+                            <p className="book-page__breadcrump-text">
+                                Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

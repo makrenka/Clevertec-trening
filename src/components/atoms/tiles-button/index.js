@@ -1,0 +1,1 @@
+export { TilesButton } from "./tiles-button";

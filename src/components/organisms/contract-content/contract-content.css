@@ -1,0 +1,13 @@
+.contract-main__content {
+    padding-left: 6px;
+}
+
+.contract-main__content-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+}

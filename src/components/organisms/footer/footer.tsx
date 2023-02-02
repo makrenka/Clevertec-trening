@@ -7,10 +7,10 @@ import './footer.css';
 
 export const Footer = () => (
     <div className="container">
-        <footer className="footer" data-test-id="footer">
+        <footer className="footer">
             <p className="footer__text">© 2020-2023 Cleverland. Все права защищены.</p>
             <div className="footer__links">
-                <a href="*">
+                <a href="*" className="footer__links-icon-link">
                     <HandySvg
                         src={iconFacebook}
                         className="footer__links-icon"
@@ -18,7 +18,7 @@ export const Footer = () => (
                         height="18"
                     />
                 </a>
-                <a href="*">
+                <a href="*" className="footer__links-icon-link">
                     <HandySvg
                         src={iconInstagram}
                         className="footer__links-icon"
@@ -26,7 +26,7 @@ export const Footer = () => (
                         height="18"
                     />
                 </a>
-                <a href="*">
+                <a href="*" className="footer__links-icon-link">
                     <HandySvg
                         src={iconVk}
                         className="footer__links-icon"
@@ -34,7 +34,7 @@ export const Footer = () => (
                         height="13"
                     />
                 </a>
-                <a href="*">
+                <a href="*" className="footer__links-icon-link">
                     <HandySvg
                         src={iconLinkedin}
                         className="footer__links-icon"

@@ -1,0 +1,22 @@
+.terms-main__content-list-item {
+    margin-top: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+}
+
+.terms-main__content-list-subitem {
+    margin-top: 16px;
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+}

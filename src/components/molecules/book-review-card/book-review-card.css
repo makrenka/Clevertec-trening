@@ -1,0 +1,67 @@
+.book-page__reviews-card {
+    margin-top: 16px;
+    margin-bottom: 42px;
+}
+
+.book-page__reviews-card-user,
+.book-page__reviews-card-user-name-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.book-page__reviews-card-user-name,
+.book-page__reviews-card-user-date {
+    margin-left: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #727272;
+}
+
+.book-page__reviews-card-rating {
+    margin-top: 16px;
+}
+
+.book-page__reviews-card-text {
+    margin-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    max-width: 730px;
+}
+
+@media screen and (max-width: 660px) {
+    .book-page__reviews-card {
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+
+    .book-page__reviews-card-user-name-wrapper {
+        display: block;
+    }
+
+    .book-page__reviews-card-user-name,
+    .book-page__reviews-card-user-date {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .book-page__reviews-card-rating {
+        margin-top: 8px;
+        width: 152px;
+        height: 24px;
+    }
+
+    .book-page__reviews-card-text {
+        margin-top: 8px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

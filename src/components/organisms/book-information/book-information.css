@@ -24,6 +24,10 @@
     align-items: center;
 }
 
+.book-page__information-rating-stars-320 {
+    display: none;
+}
+
 .book-page__information-rating-value {
     margin-left: 24px;
     font-family: 'Montserrat', sans-serif;
@@ -52,6 +56,163 @@
     padding-bottom: 16px;
 }
 
-.book-page__information-detail-table {
-    margin-top: 16px;
+.book-page__information-detail-tables {
+    display: flex;
+    align-items: baseline;
+}
+
+.book-page__information-detail-table-first-col {
+    min-width: 190px;
+}
+
+.book-page__information-detail-table-second-col {
+    min-width: 285px;
+}
+
+.book-page__information-detail-table tr th {
+    padding-top: 16px;
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+    vertical-align: baseline;
+}
+
+.book-page__information-detail-table tr td {
+    padding-top: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--text);
+    vertical-align: baseline;
+}
+
+.book-page__information-detail-table tr {
+    height: 40px;
+}
+
+@media screen and (max-width: 1130px) {
+    .book-page__information {
+        margin-top: 52px;
+    }
+
+    .book-page__information-rating {
+        width: 305px;
+    }
+
+    .book-page__information-rating-title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .book-page__information-detail {
+        margin-top: 52px;
+    }
+
+    .book-page__information-detail-title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        width: 305px;
+    }
+
+    .book-page__information-detail-table:first-child {
+        margin-right: 30px;
+    }
+
+    .book-page__information-detail-table tr th {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .book-page__information-detail-table tr td {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .book-page__information-detail-table-first-col {
+        min-width: 138px;
+    }
+
+    .book-page__information-detail-table-second-col {
+        min-width: 167px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .book-page__information {
+        margin-top: 42px;
+    }
+
+    .book-page__information-rating {
+        width: 100%;
+    }
+
+    .book-page__information-rating-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 8px;
+    }
+
+    .book-page__information-rating-wrapper {
+        margin-top: 8px;
+    }
+
+    .book-page__information-rating-stars {
+        display: none;
+    }
+
+    .book-page__information-rating-stars-320 {
+        display: block;
+    }
+
+    .book-page__information-detail {
+        margin-top: 24px;
+    }
+
+    .book-page__information-detail-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 8px;
+        width: 100%;
+    }
+
+    .book-page__information-detail-tables {
+        display: block;
+    }
+
+    .book-page__information-detail-table tr th,
+    .book-page__information-detail-table tr td {
+        padding: 8px 0;
+    }
+
+    .book-page__information-detail-table-first-col {
+        min-width: 129px;
+    }
+
+    .book-page__information-detail-table-second-col {
+        min-width: auto;
+    }
+
+    .book-page__information-detail-table tr th {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .book-page__information-detail-table tr td {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
 }

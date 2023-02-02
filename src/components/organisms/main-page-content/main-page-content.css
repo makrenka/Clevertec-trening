@@ -6,6 +6,17 @@
     grid-column-gap: 21.5px;
 }
 
-.main-page__content--unactive {
-    display: none;
+@media screen and (max-width: 1130px) {
+    .main-page__content {
+        margin-top: 24px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .main-page__content {
+        margin-top: 16px;
+        margin-left: 0;
+        display: block;
+    }
 }

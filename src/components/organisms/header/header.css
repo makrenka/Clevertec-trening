@@ -19,6 +19,7 @@
     line-height: 40px;
     letter-spacing: 0.1px;
     color: var(--text);
+    margin-left: 6px;
 }
 
 .header__user-text {
@@ -31,4 +32,46 @@
     letter-spacing: 0.1px;
     color: var(--text);
     margin-right: 16px;
+}
+
+.header__hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 1130px) {
+
+    .header__link,
+    .header__user {
+        display: none;
+    }
+
+    .header__hamburger {
+        display: block;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        padding-bottom: 24px;
+    }
+
+    .header__heading {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .header {
+        padding-top: 24px;
+    }
+
+    .header__hamburger {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__heading {
+        font-size: 18px;
+        line-height: 28px;
+    }
 }

@@ -3,3 +3,17 @@
     margin-top: 27px;
     margin-bottom: 42px;
 }
+
+@media screen and (max-width: 1130px) {
+    .book-page {
+        margin-top: 24px;
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .book-page {
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+}

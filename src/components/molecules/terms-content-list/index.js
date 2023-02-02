@@ -1,0 +1,1 @@
+export { TermsContentList } from './terms-content-list';

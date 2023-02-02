@@ -24,3 +24,45 @@
 .book-page__breadcrump-item-chevron-icon {
     margin: 0 4px;
 }
+
+.book-page__breadcrump-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #A7A7A7;
+}
+
+@media screen and (max-width: 1130px) {
+    .book-page__breadcrump-list {
+        display: block;
+    }
+
+    .book-page__breadcrump-item {
+        float: left;
+    }
+
+    .book-page__breadcrump-text {
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .book-page__breadcrump-wrapper {
+        margin-top: 0;
+    }
+
+    .book-page__breadcrump-item,
+    .book-page__breadcrump-text {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .book-page__breadcrump-item-chevron-icon {
+        width: 16px;
+        height: 16px;
+    }
+}

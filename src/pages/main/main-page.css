@@ -1,6 +1,20 @@
 .main__wrapper {
     min-height: calc(100vh - 230px);
     margin-top: 47px;
+    margin-bottom: 62px;
     display: grid;
     grid-template-columns: 279px 1fr;
+}
+
+@media screen and (max-width: 1130px) {
+    .main__wrapper {
+        margin-top: 30px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .main__wrapper {
+        margin-top: 8px;
+    }
 }

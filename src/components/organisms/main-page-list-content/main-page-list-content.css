@@ -1,8 +1,9 @@
 .main-page__list-content {
     margin: 32px 0 62px 6px;
-    display: none;
 }
 
-.main-page__list-content--active {
-    display: block;
+@media screen and (max-width: 660px) {
+    .main-page__list-content {
+        margin: 16px 0 0 0;
+    }
 }

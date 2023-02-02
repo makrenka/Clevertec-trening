@@ -1,17 +1,15 @@
-.side-bar__books-showcase {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0.1px;
-    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    margin-right: 24px;
+.side-bar {
+    padding-right: 24px;
+}
+
+.books-showcase-link {
+    display: inline-block;
+    width: 100%;
     padding-bottom: 8px;
+    border-bottom: 1px solid #363636;
+}
+
+.books-showcase .active {
     border-bottom: 1px solid #F83600;
 }
 
@@ -64,4 +62,14 @@
     line-height: 28px;
     letter-spacing: 0.1px;
     color: var(--text);
+}
+
+.side-bar__pages-item:first-child {
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1130px) {
+    .side-bar {
+        display: none;
+    }
 }

@@ -1,0 +1,1 @@
+export { ContractContent } from './contract-content';

@@ -1,0 +1,1 @@
+export { BookReviewCard } from './book-review-card';

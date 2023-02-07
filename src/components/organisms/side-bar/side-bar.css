@@ -2,19 +2,39 @@
     padding-right: 24px;
 }
 
+.books-showcase {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12px;
+}
+
 .books-showcase-link {
     display: inline-block;
     width: 100%;
     padding-bottom: 8px;
-    border-bottom: 1px solid #363636;
 }
 
-.books-showcase .active {
+.books-showcase__btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.showcaseicon__active {
+    transform: rotate(180deg);
+}
+
+.showcase__active {
     border-bottom: 1px solid #F83600;
 }
 
 .side-bar__books-list {
     padding-left: 20px;
+    display: none;
+}
+
+.bookslist__active {
+    display: block;
 }
 
 .active {

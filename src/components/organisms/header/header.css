@@ -1,3 +1,7 @@
+.header__container {
+    position: relative;
+}
+
 .header {
     display: grid;
     grid-template-columns: 279px 1fr max-content;
@@ -46,7 +50,12 @@
     }
 
     .header__hamburger {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border: none;
+        background: none;
     }
 
     .header {

@@ -1,5 +1,5 @@
 import { Component, ReactNode } from "react";
-import bookPageImg from '../../../assets/images/book-page-images/book-cover.jpg';
+import { BookImgSlider } from "../../molecules/book-img-slider";
 import './book-description.css';
 
 export class BookDescription extends Component {
@@ -9,7 +9,7 @@ export class BookDescription extends Component {
             <div className="container">
                 <section className="book-page__description">
                     <div className="book-page__description-section-wrapper">
-                        <img src={bookPageImg} alt="book cover" className="book-page__description-img" />
+                        <BookImgSlider />
                         <div className="book-page__description-wrapper">
                             <h2 className="book-page__description-title">
                                 Грокаем алгоритмы. Иллюстрированное пособие для программистов и любопытствующих

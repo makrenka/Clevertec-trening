@@ -1,0 +1,1 @@
+export { SearchInputAdapt } from './search-input-adapt';

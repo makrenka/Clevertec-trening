@@ -35,10 +35,16 @@ export class MobileMenu extends Component<Props, { openNavBar: boolean }, { prop
 
     render(): ReactNode {
         return (
-            <div className={classNames('mobile-menu', { mobilemenu__active: this.props.onOpen })}>
+            <div
+                className={classNames('mobile-menu', { mobilemenu__active: this.props.onOpen })}
+                data-test-id='burger-navigation'
+            >
                 <nav className='side-bar__nav'>
                     <ul className="side-bar__pages-list mobile-menu__pages-list">
-                        <li className={classNames("side-bar__pages-item books-showcase mobile-menu__books-showcase", { showcase__active: this.state.activePathName.includes('/books/') })}>
+                        <li
+                            className={classNames("side-bar__pages-item books-showcase mobile-menu__books-showcase", { showcase__active: this.state.activePathName.includes('/books/') })}
+                            data-test-id='burger-showcase'
+                        >
                             <NavLink
                                 to="/books/all"
                                 className={classNames("books-showcase-link", { active: this.state.activePathName.includes('/books/') })}
@@ -64,7 +70,7 @@ export class MobileMenu extends Component<Props, { openNavBar: boolean }, { prop
                         </li>
 
                         <ul className={classNames("side-bar__books-list", { bookslist__active: this.state.openNavBar })}>
-                            <li className="side-bar__books-item">
+                            <li className="side-bar__books-item" data-test-id='burger-books'>
                                 <NavLink
                                     to="/books/all"
                                     onClick={this.updateActivePath}
@@ -156,13 +162,13 @@ export class MobileMenu extends Component<Props, { openNavBar: boolean }, { prop
                             </li>
                         </ul>
 
-                        <li className="side-bar__pages-item">
+                        <li className="side-bar__pages-item" data-test-id='burger-terms'>
                             <NavLink
                                 to="/terms"
                                 onClick={this.updateActivePath}
                             >Правила пользования</NavLink>
                         </li>
-                        <li className="side-bar__pages-item">
+                        <li className="side-bar__pages-item" data-test-id='burger-contract'>
                             <NavLink
                                 to="/contract"
                                 onClick={this.updateActivePath}

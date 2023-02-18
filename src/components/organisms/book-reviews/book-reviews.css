@@ -2,6 +2,14 @@
     margin-top: 62px;
 }
 
+.book-page__reviews-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 350px;
+    border-bottom: 1px solid #EBEBEB;
+}
+
 .book-page__reviews-title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -11,8 +19,19 @@
     letter-spacing: 0.1px;
     color: var(--text);
     padding-bottom: 16px;
-    border-bottom: 1px solid #EBEBEB;
-    width: 350px;
+    width: 92px;
+}
+
+.book-page__reviews-title-arrow-btn {
+    margin-bottom: 16px;
+    margin-left: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.reviewsarrow__active {
+    transform: rotate(180deg);
 }
 
 .book-page__reviews-title span {
@@ -24,6 +43,10 @@
     letter-spacing: 0.1px;
     color: #A7A7A7;
     margin-left: 6px;
+}
+
+.cards__unactive {
+    display: none;
 }
 
 .book-page__reviews-btn {

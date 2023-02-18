@@ -34,7 +34,10 @@ export class SideBar extends Component<{ props?: any }, { openNavBar: boolean }>
             <aside className="side-bar">
                 <nav className='side-bar__nav'>
                     <ul className="side-bar__pages-list">
-                        <li className={classNames("side-bar__pages-item books-showcase", { showcase__active: this.state.activePath.includes('/books/') })}>
+                        <li
+                            className={classNames("side-bar__pages-item books-showcase", { showcase__active: this.state.activePath.includes('/books/') })}
+                            data-test-id='navigation-showcase'
+                        >
                             <NavLink
                                 to="/books/all"
                                 className={classNames("books-showcase-link", { active: this.state.activePath.includes('/books/') })}
@@ -61,7 +64,7 @@ export class SideBar extends Component<{ props?: any }, { openNavBar: boolean }>
                         </li>
 
                         <ul className={classNames("side-bar__books-list", { bookslist__active: this.state.openNavBar })}>
-                            <li className="side-bar__books-item">
+                            <li className="side-bar__books-item" data-test-id='navigation-books'>
                                 <NavLink to="/books/all">Все книги</NavLink>
                             </li>
                             <li className="side-bar__books-item">
@@ -150,13 +153,13 @@ export class SideBar extends Component<{ props?: any }, { openNavBar: boolean }>
                             </li>
                         </ul>
 
-                        <li className="side-bar__pages-item">
+                        <li className="side-bar__pages-item" data-test-id='navigation-terms'>
                             <NavLink
                                 to="/terms"
                                 onClick={this.updateActivePath}
                             >Правила пользования</NavLink>
                         </li>
-                        <li className="side-bar__pages-item">
+                        <li className="side-bar__pages-item" data-test-id='navigation-contract'>
                             <NavLink
                                 to="/contract"
                                 onClick={this.updateActivePath}

@@ -135,4 +135,8 @@
     .search-bar__buttons-list-btn {
         margin-left: 8px;
     }
+
+    .searchbar__unactive {
+        display: none;
+    }
 }
